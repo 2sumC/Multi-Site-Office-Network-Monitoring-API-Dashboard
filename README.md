@@ -1,22 +1,22 @@
 # 🌍 ICT Infrastructure Dashboard
 
-## 📖 Project Overview
+## Project Overview
 
-This project demonstrates a comprehensive ICT infrastructure monitoring system designed for international organizations with distributed offices worldwide. It monitors network devices across multiple countries, integrates external APIs for contextual data (weather, geolocation, time, news), provides **real-time SNMP device monitoring**, and delivers actionable analytics through a responsive web dashboard.
+This project is a comprehensive ICT infrastructure monitoring system designed for international organizations with distributed offices worldwide. It monitors network devices across multiple countries, integrates external APIs for contextual data (weather, geolocation, time, news), provides **real-time SNMP device monitoring**, and delivers actionable analytics through a responsive web dashboard.
 
 **Key Features:**
-- 🌐 RESTful API with 25+ endpoints
-- 🗺️ Interactive map showing global office locations
-- 📊 Real-time performance analytics and trending
-- 🚨 Alert management system
-- 🔧 **SNMP protocol integration for real network device monitoring**
-- ☁️ External API integration (Weather, Geolocation, Time, News)
-- 📈 Data visualization with charts and graphs
-- 🌍 Multi-region support (Africa, Asia-Pacific, Europe, Latin America)
-- 📰 Live news ticker with latest technology updates
+- RESTful API with 25+ endpoints
+- Interactive map showing global office locations
+- Real-time performance analytics and trending
+- Alert management system
+- SNMP protocol integration for real network device monitoring**
+- External API integration (Weather, Geolocation, Time, News)
+- Data visualization with charts and graphs
+- Multi-region support (Africa, Asia-Pacific, Europe, Latin America)
+- Live news ticker with latest technology updates
 
 
-## 🏗️ Architecture
+## Architecture
 ┌─────────────────┐
 │  Web Dashboard  │ ← HTML5, Chart.js, Leaflet Maps
 └────────┬────────┘
@@ -185,7 +185,7 @@ If you don't have access to real network equipment:
 - View simulated data in the dashboard
 
 
-## 📁 Project Structure
+## Project Structure
 ```
 undp-ict-dashboard/
 ├── api/
