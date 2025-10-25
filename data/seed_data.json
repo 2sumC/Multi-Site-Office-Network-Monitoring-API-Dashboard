@@ -1,0 +1,221 @@
+{
+  "offices": [
+    {
+      "id": "CO-AF-001",
+      "name": "Kenya",
+      "country": "Kenya",
+      "region": "Africa",
+      "city": "Nairobi",
+      "latitude": -1.2921,
+      "longitude": 36.8219,
+      "timezone": "Africa/Nairobi",
+      "status": "active"
+    },
+    {
+      "id": "CO-AS-001",
+      "name": "Thailand",
+      "country": "Thailand",
+      "region": "Asia-Pacific",
+      "city": "Bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "timezone": "Asia/Bangkok",
+      "status": "active"
+    },
+    {
+      "id": "CO-EU-001",
+      "name": "Turkey",
+      "country": "Turkey",
+      "region": "Europe-CIS",
+      "city": "Ankara",
+      "latitude": 39.9334,
+      "longitude": 32.8597,
+      "timezone": "Europe/Istanbul",
+      "status": "active"
+    },
+    {
+      "id": "CO-LA-001",
+      "name": "Brazil",
+      "country": "Brazil",
+      "region": "Latin America",
+      "city": "Brasília",
+      "latitude": -15.8267,
+      "longitude": -47.9218,
+      "timezone": "America/Sao_Paulo",
+      "status": "active"
+    },
+    {
+      "id": "CO-AS-002",
+      "name": "India",
+      "country": "India",
+      "region": "Asia-Pacific",
+      "city": "New Delhi",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "timezone": "Asia/Kolkata",
+      "status": "active"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-001",
+      "office_id": "CO-AF-001",
+      "name": "Nairobi-Core-Router-01",
+      "device_type": "router",
+      "ip_address": "10.1.1.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-002",
+      "office_id": "CO-AF-001",
+      "name": "Nairobi-Core-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.1.1.2",
+      "status": "online"
+    },
+    {
+      "id": "DEV-003",
+      "office_id": "CO-AF-001",
+      "name": "Nairobi-Firewall-01",
+      "device_type": "firewall",
+      "ip_address": "10.1.1.254",
+      "status": "online"
+    },
+    {
+      "id": "DEV-004",
+      "office_id": "CO-AF-001",
+      "name": "Nairobi-Access-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.1.2.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-005",
+      "office_id": "CO-AS-001",
+      "name": "Bangkok-Core-Router-01",
+      "device_type": "router",
+      "ip_address": "10.2.1.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-006",
+      "office_id": "CO-AS-001",
+      "name": "Bangkok-Core-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.2.1.2",
+      "status": "online"
+    },
+    {
+      "id": "DEV-007",
+      "office_id": "CO-AS-001",
+      "name": "Bangkok-Firewall-01",
+      "device_type": "firewall",
+      "ip_address": "10.2.1.254",
+      "status": "online"
+    },
+    {
+      "id": "DEV-008",
+      "office_id": "CO-AS-001",
+      "name": "Bangkok-WiFi-Controller-01",
+      "device_type": "server",
+      "ip_address": "10.2.3.10",
+      "status": "online"
+    },
+    {
+      "id": "DEV-009",
+      "office_id": "CO-EU-001",
+      "name": "Ankara-Core-Router-01",
+      "device_type": "router",
+      "ip_address": "10.3.1.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-010",
+      "office_id": "CO-EU-001",
+      "name": "Ankara-Core-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.3.1.2",
+      "status": "online"
+    },
+    {
+      "id": "DEV-011",
+      "office_id": "CO-EU-001",
+      "name": "Ankara-Firewall-01",
+      "device_type": "firewall",
+      "ip_address": "10.3.1.254",
+      "status": "online"
+    },
+    {
+      "id": "DEV-012",
+      "office_id": "CO-LA-001",
+      "name": "Brasilia-Core-Router-01",
+      "device_type": "router",
+      "ip_address": "10.4.1.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-013",
+      "office_id": "CO-LA-001",
+      "name": "Brasilia-Core-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.4.1.2",
+      "status": "online"
+    },
+    {
+      "id": "DEV-014",
+      "office_id": "CO-LA-001",
+      "name": "Brasilia-Firewall-01",
+      "device_type": "firewall",
+      "ip_address": "10.4.1.254",
+      "status": "online"
+    },
+    {
+      "id": "DEV-015",
+      "office_id": "CO-LA-001",
+      "name": "Brasilia-Access-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.4.2.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-016",
+      "office_id": "CO-AS-002",
+      "name": "Delhi-Core-Router-01",
+      "device_type": "router",
+      "ip_address": "10.5.1.1",
+      "status": "online"
+    },
+    {
+      "id": "DEV-017",
+      "office_id": "CO-AS-002",
+      "name": "Delhi-Core-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.5.1.2",
+      "status": "online"
+    },
+    {
+      "id": "DEV-018",
+      "office_id": "CO-AS-002",
+      "name": "Delhi-Firewall-01",
+      "device_type": "firewall",
+      "ip_address": "10.5.1.254",
+      "status": "online"
+    },
+    {
+      "id": "DEV-019",
+      "office_id": "CO-AS-002",
+      "name": "Delhi-Server-01",
+      "device_type": "server",
+      "ip_address": "10.5.3.10",
+      "status": "online"
+    },
+    {
+      "id": "DEV-020",
+      "office_id": "CO-AS-002",
+      "name": "Delhi-Access-Switch-01",
+      "device_type": "switch",
+      "ip_address": "10.5.2.1",
+      "status": "online"
+    }
+  ]
+}
