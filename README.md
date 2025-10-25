@@ -15,7 +15,7 @@ This project is a comprehensive ICT infrastructure monitoring system designed fo
 - Multi-region support (Africa, Asia-Pacific, Europe, Latin America)
 - Live news ticker with latest technology updates
 
-
+```
 ## Architecture
 ┌─────────────────┐
 │  Web Dashboard  │ ← HTML5, Chart.js, Leaflet Maps
