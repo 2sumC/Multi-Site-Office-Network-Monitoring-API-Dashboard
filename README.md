@@ -91,7 +91,7 @@ Available API keys to configure:
 python run.py
 ```
 
-Access the dashboard at: **http://localhost:8000**
+Access the dashboard at: **[http://localhost:8000**](https://multi-site-office-network-monitoring-api.onrender.com)
 
 ## 📚 API Documentation
 
