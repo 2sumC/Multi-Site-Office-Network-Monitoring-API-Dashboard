@@ -1,4 +1,4 @@
-"""便捷启动脚本"""
+
 import sys
 import os
 
@@ -7,7 +7,6 @@ sys.path.insert(0, os.path.dirname(__file__))
 from api.app import app
 
 if __name__ == '__main__':
-    # 支持 Render 等平台的动态端口
     PORT = int(os.getenv('PORT', 8000))
     IS_PRODUCTION = os.getenv('FLASK_ENV', 'development') == 'production'
     
@@ -23,7 +22,7 @@ if __name__ == '__main__':
     print("=" * 70 + "\n")
     
     app.run(
-        debug=not IS_PRODUCTION,  # 生产环境关闭debug
+        debug=not IS_PRODUCTION,  
         host='0.0.0.0',
         port=PORT
     )
